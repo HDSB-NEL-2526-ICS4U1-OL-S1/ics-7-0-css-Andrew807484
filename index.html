@@ -1,7 +1,9 @@
 
 <!DOCTYPE html>
 <html>
+  
   <head>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>replit</title>
@@ -9,8 +11,54 @@
   </head>
   <body>
     
-    <h1 id="title">Hello world</h1>
-
+    <div id="header">
+      <h1><strong>Animals of Ontario </strong></h1>
+    </div>
+    <div id="paragraph">
+    <p>
+      Ontario is home to many <strong>amazing animals</strong> that live in forests,
+      lakes, and wetlands. Some of these animals are
+    </p>
+   </div>
+   
+   
+   <img
+    id = "beaverimage"
+    src = "https://blog.ontarioparks.ca/wp-content/uploads/2019/11/Groundhog-900x600.jpg"
+    alt = "Beavers in Ontario"
+   >
+   
+  
+   <img
+    id = "stripedskunkimage"
+    src = "https://visitsunsetcountry.com/sites/default/files/styles/full_width/public/bryan-padron-jG8eaA5Iq3A-unsplash.jpg?itok=m80Imnc5"
+    alt = "Skunks in Ontario"
+   >
+   <div id="footer">
+    <p>Created by Andrew</p>
+   </div>
+ <button id="funfacts" onclick= "facts()">
+  <p class = "A-button-label">Click here to learn facts about the Striped Skunk</p>
+    Learn More
+    <script>
+    function facts(){
+      let question = "Beavers are widely considered to be highly intulectual animals, especially for a rodent, due to their complex enviromental engineering abilities.";
+      console.log(question);
+    }
+    </script>
+   </button>'
+   <button id="funfact" onclick= "questioning()">
+    <p class = "A-button-label">Click here to learn facts about the Striped Skunk</p>
+    Learn More
+   
+    <script>
+    function questioning(){
+      let question = "Skunks are  nocturnal, omnivorous mammals known for their potent, foul-smelling spray used for defense, with black and white markings warning predators.";
+      console.log(question);
+    }
+    </script>
+   </button>
+  
     <script src="script.js"></script>
   </body>
 </html>

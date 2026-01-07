@@ -3,19 +3,58 @@
 
 /* Target the title element and apply the following styles: */
 
-#title {
-  background-color: blue;
-  color: #ff0062;
-  padding: 15px;
-  margin: 50px;
 
-  border-style: solid;  
-  border-color: #000000;
-  border-radius: 50px;
 
-  font-family: 'Lobster', cursive;
-  font-size: 50px; 
-  text-align: center;
+body {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#header{
+  background-color: #2c6e49;
+  color: white;
+  padding: 30px;
 }
 
 
+#paragraph {
+  margin: 40px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+#beaverimage{
+ width: 500px;
+  border-radius: 10px;
+  margin: 20px 0;
+  height: 300px;
+}
+
+#stripedskunkimage{
+ width: 500px;
+ border-radius: 10px;
+ margin: 20px 0;
+ height: 300px;
+}
+
+#footer{
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #ddd;
+  font-size: 14px;
+}
+
+.A-button-label{
+  font-size: 15px;
+  color:rgb(40, 131, 40);
+  margin-top: 5px;
+}
+.B-button-label{
+  font-size: 15px;
+  color:rgb(40, 131, 40);
+  margin-top: 5px;
+}
